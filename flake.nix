@@ -1,5 +1,5 @@
 {
-  description = "A logo extraction tool that crawls domains.";
+  description = "A logo discovery tool that crawls domains.";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

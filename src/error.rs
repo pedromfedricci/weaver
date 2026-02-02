@@ -1,4 +1,4 @@
-//! Custom error types for the weave logo extraction tool.
+//! Custom error types for the weave logo discovery tool.
 
 #![allow(dead_code)]
 

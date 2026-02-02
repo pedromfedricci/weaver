@@ -5,7 +5,7 @@ edition = "2024"
 license = "Apache-2.0"
 readme = "README.md"
 rust-version = "1.92"
-description = "A logo extraction tool that crawls domains."
+description = "A logo discovery tool that crawls domains."
 repository = "https://github.com/pedromfedricci/weaver"
 authors = ["Pedro de Matos Fedricci <pedromfedricci@gmail.com>"]
 

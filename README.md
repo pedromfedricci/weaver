@@ -1,6 +1,6 @@
 # Weaver
 
-A logo extraction tool that crawls domains and outputs a CSV mapping of domain
+A logo discovery tool that crawls domains and outputs a CSV mapping of domain
 to logo url and logo hash (learning project).
 
 ## How

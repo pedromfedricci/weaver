@@ -1,4 +1,4 @@
-//! Entry point and CLI parsing for the logo extraction tool.
+//! Entry point and CLI parsing for the logo discovery tool.
 
 mod async_executor;
 mod coordinator;
@@ -21,7 +21,7 @@ use crate::progress::{ProgressWriter, generate_csv, load_progress};
 use crate::worker::spawn_worker_pool;
 
 #[derive(Parser)]
-#[command(name = "weave", about = "Logo extraction tool")]
+#[command(name = "weave", about = "Logo discovery tool")]
 struct Cli {
     /// Maximum concurrent HTTP requests.
     #[arg(long, default_value_t = 100)]
@@ -138,7 +138,7 @@ fn main() {
         }
     }
 
-    info!("Logo extraction done.");
+    info!("Logo discovery done.");
 
     // Generate CSV from progress log.
     if !cli.no_export {
